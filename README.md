@@ -1,11 +1,15 @@
 # To Start
-'git clone https://github.com/Edel-weiB/Bolt-Project-2.git'
-'npm i'
-'yarn start'
+'''
+git clone https://github.com/Edel-weiB/Bolt-Project-2.git
+npm i
+yarn start
+'''
 
 ### To install any npm module
-Always use the '--save'
-'npm install SomeNPMmodule --save'
+Always use the '''--save'''
+'''
+npm install SomeNPMmodule --save
+'''
 
 
 # Ignore Below
