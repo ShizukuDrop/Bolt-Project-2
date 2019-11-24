@@ -1,3 +1,14 @@
+# To Start
+'git clone https://github.com/Edel-weiB/Bolt-Project-2.git'
+'npm i'
+'yarn start'
+
+### To install any npm module
+Always use the '--save'
+'npm install SomeNPMmodule --save'
+
+
+# Ignore Below
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

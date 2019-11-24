@@ -1,15 +1,21 @@
 import React from 'react';
 import * as THREE from 'three';
-import CSVReader from 'react-csv-reader'
+import * as d3 from 'd3';
+import data from '../csv/short.csv';
+import { resolve } from 'dns';
 
 function readCSV() {
+    return new Promise(resolve => {
+        var PromiseConstant = d3.csv(data, function (rows) {
+            return rows
+        });
 
-
-    
+        resolve(PromiseConstant);
+    })
 }
 
 function TreeJsWindow() {
-    readCSV()
+    readCSV().then(resolve => console.log(resolve))
 
 
     var scene = new THREE.Scene();
@@ -24,7 +30,6 @@ function TreeJsWindow() {
         <div>
             Window Above
         </div>
-        <CSVReader onFileLoaded={data => console.log(data)} />
     );
 }
 
