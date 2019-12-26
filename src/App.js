@@ -8,9 +8,9 @@ import TreeJsWindow from './component/treeJsComponent';
 function App() {
     return (
         <div>
-            Blank
                 <TreeJsWindow></TreeJsWindow>
                 <SpeedBar></SpeedBar>
+                
         </div>
     );
 }
